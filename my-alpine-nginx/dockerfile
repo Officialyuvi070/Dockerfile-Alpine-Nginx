@@ -1,0 +1,5 @@
+FROM nginx:alpine
+WORKDIR /apps
+COPY index.html /usr/share/nginx/html
+
+# This nginx is web hosting server and /usr/share/nginx/html this is default html path where stored files related to website.
